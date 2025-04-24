@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color:aqua
+      color: #333;
+    }
+
+    header {
+      background-color:aqua;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center
+    }
+
+    nav a {
+      margin: 0 1rem;
+      color:deepskyblue;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .card {
+      background:azure;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+      padding: 1.5rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      background-color:blueviolet;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>TANISHA</h1>
+    <p>Web Developer | Coder</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>A passionate engineering student driven by curiosity, creativity, and the desire to build innovative solutions to real-world problems.A tech enthusiast and lifelong learner, I enjoy turning challenges into opportunities through design, code, and collaboration.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>Portfolio Website</h3>
+        <p>A personal portfolio built using HTML, CSS, and JavaScript.</p>
+      </div>
+      <div class="card">
+        <h3>meena chatbot </h3>
+        <p>designed a chatbot that works as a google AI and solve the complex problems</p>
+      </div>
+      <div class="card">
+        <h3>case study</h3>
+        <p>Fraud detection using machine learing in Banking.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>mobile no. 9592186719 </p>
+    <p>Email: tanuuu1302@gmail.com</p>
+    <p>GitHub: <a href="https://github.com/janedoe" target="_blank">TANISHA</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 TANISHA.All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
